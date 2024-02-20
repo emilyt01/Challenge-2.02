@@ -21,9 +21,11 @@ $(document).ready(function() {
         $("#box").hide();
     });
 
-    $(".box").click(function(){
-        $(".box").addClass("animate-box");
-        $(".box").removeClass("animate-box");
+    $("#box").click(function(){
+        $("#box").addClass("animate-box");
+        setTimeout(function(){
+            $("#box").removeClass("animate-box");
+        }, 5000);
     });
 
 });

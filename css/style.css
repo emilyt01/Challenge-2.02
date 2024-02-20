@@ -48,9 +48,7 @@
     animation:move 5s;
 }
 
-.box{
-    animation: move 5s;
-}
+
 
 @keyframes move{
     0%{
